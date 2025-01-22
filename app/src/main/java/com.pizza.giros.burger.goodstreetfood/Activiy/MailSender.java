@@ -5,8 +5,8 @@ import javax.mail.internet.*;
 import java.util.Properties;
 
 public class MailSender {
-    private static final String USERNAME = "markizmazut@gmail.com";
-    private static final String PASSWORD = "yrdi favu phji npsb";
+    private static final String USERNAME = "Ваш email сервисного аккаунта гугл";
+    private static final String PASSWORD = "Ваш пароль от сервисного аккаунта";
 
     public static void sendEmail(String recipient, String subject, String body) {
         Properties props = new Properties();
