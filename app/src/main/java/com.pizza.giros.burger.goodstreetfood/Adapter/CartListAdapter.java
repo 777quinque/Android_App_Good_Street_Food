@@ -96,7 +96,7 @@ public class CartListAdapter extends RecyclerView.Adapter<CartListAdapter.ViewHo
 
     // Метод для получения текста цены в зависимости от названия блюда и количества
     private String getPriceText(String foodTitle, int quantity) {
-        String priceText = "₽";
+        String priceText = "₸";
         int price = 0;
 
         // Проверка названия блюда и установка соответствующей цены

@@ -56,7 +56,7 @@ public class ShowDetailActivity2 extends AppCompatActivity {
         numberOrderTxt.setText(String.valueOf(numberOrder));
 
         // Отображение цены
-        feeTxt.setText("₽" + object.getFee());
+        feeTxt.setText("₸" + object.getFee());
 
         // Проверка, является ли объект наггетсами, стрипсами или сырыми палочками
         if ("Наггетсы куриные".equals(object.getTitle()) || "Стрипсы куриные".equals(object.getTitle()) || "Сырные палочки".equals(object.getTitle())) {
@@ -112,7 +112,7 @@ public class ShowDetailActivity2 extends AppCompatActivity {
             public void onClick(View v) {
                 numberOrder++;
                 numberOrderTxt.setText(String.valueOf(numberOrder));
-                feeTxt.setText("₽" + object.getFee() * numberOrder); // Обновляем цену
+                feeTxt.setText("₸" + object.getFee() * numberOrder); // Обновляем цену
             }
         });
 
@@ -122,7 +122,7 @@ public class ShowDetailActivity2 extends AppCompatActivity {
                 if (numberOrder > 1) {
                     numberOrder--;
                     numberOrderTxt.setText(String.valueOf(numberOrder));
-                    feeTxt.setText("₽" + object.getFee() * numberOrder); // Обновляем цену
+                    feeTxt.setText("₸" + object.getFee() * numberOrder); // Обновляем цену
                 }
             }
         });
@@ -140,7 +140,7 @@ public class ShowDetailActivity2 extends AppCompatActivity {
     // Метод для расчета цены в зависимости от количества
     // Метод для получения текста цены в зависимости от названия блюда и количества
     private String getPriceText(String foodTitle, int quantity) {
-        String priceText = "₽";
+        String priceText = "₸";
         int price = 0;
 
         // Проверка названия блюда и установка соответствующей цены

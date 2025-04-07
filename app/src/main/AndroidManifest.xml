@@ -22,54 +22,67 @@
         <activity
             android:name=".Activiy.HelpActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.ProjectFood"/>
         <activity
             android:name=".Activiy.ProfileActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.ProjectFood"/>
         <activity
             android:name=".Activiy.SettingsActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.ProjectFood"/>
         <activity
             android:name=".Activiy.CardListActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.ProjectFood"/>
         <activity
             android:name=".Activiy.ShowDetailActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.ProjectFood"/>
         <activity
             android:name=".Activiy.ShowDetailActivity2"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.ProjectFood"/>
         <activity
             android:name=".Activiy.LoginActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.ProjectFood"/>
         <activity
             android:name=".Activiy.RegisterActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.ProjectFood"/>
         <activity
             android:name=".Activiy.CategoryDetailActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.ProjectFood"/>
         <activity
             android:name=".Activiy.PaymentActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.ProjectFood"/>
         <activity
             android:name=".Activiy.ZakazActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.ProjectFood"/>
         <activity
             android:name=".Activiy.ZakazNalActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.ProjectFood"/>
         <activity
             android:name=".Activiy.IntroActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.ProjectFood">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -78,6 +91,7 @@
         </activity>
         <activity
             android:name=".Activiy.MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true"
             android:theme="@style/Theme.ProjectFood"/>
     </application>

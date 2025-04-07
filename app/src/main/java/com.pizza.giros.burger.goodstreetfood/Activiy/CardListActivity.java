@@ -98,10 +98,10 @@ public class CardListActivity extends AppCompatActivity {
         int total = (int) (Math.round((managementCart.getTotalFee() + delivery) * 100) / 100);
         int itemTotal = (int) (Math.round(managementCart.getTotalFee() * 100) / 100);
 
-        totalFeeTxt.setText("₽" + itemTotal);
-        //taxTxt.setText("₽" + tax);
-        deliveryTxt.setText("₽" + delivery);
-        totalTxt.setText("₽" + total);
+        totalFeeTxt.setText("₸" + itemTotal);
+        //taxTxt.setText("₸" + tax);
+        deliveryTxt.setText("₸" + delivery);
+        totalTxt.setText("₸" + total);
 
         // Проверяем, пуст ли список корзины, и обновляем видимость emptyTxt
         if (managementCart.getListCard().isEmpty()) {
